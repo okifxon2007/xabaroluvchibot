@@ -20,7 +20,7 @@ bot.on('text', async (ctx) => {
 
     // Istalmagan iboralar ro‘yxati (kirl va lotin harflarda, simvollar va har qanday korinishda)
     const excludeFilters = [
-        "poshta","3 ODAM. KAM","3 Odam","Юрамиз","юрамиз","ЮРАМИЗ","Yuramiz","yuramiz","YURAMIZ","Кам","кам","КАМ","Kam","kam","KAM",
+        "poshta","3 ODAM. KAM","3 Odam","Юрамиз","юрамиз","ЮРАМИЗ","Yuramiz","yuramiz","YURAMIZ","Кам","кам","КАМ","Kam","kam","KAM","kamdamiz","Kamdamiz",
         "2ta odamkam", "2 та одамкам", "Почтаоламиз","почтаоламиз","ПОЧТАОЛАМИЗ","ПоЧтаОламиз","ПочТАоЛамиз","ПочтаОлаМИз","ПОЧтаоламиз","ПочтаоламИз","ПочТАОЛАМИЗ",
         "pochtaolamiz", "poshta","pochta olamiz", "pochta-olamiz", "почтаоламиз", "почта оламиз", "почта-оламиз",
         "oldi bosh", "олди бош", 
@@ -28,7 +28,7 @@ bot.on('text', async (ctx) => {
         "2odam", "2 одам", 
         "3odam", "3 одам", 
         "4odam", "4 одам", 
-        "☎️", "📞", "📍", "🚗", "‼️", "⏰", "📦"
+        "☎️", "📞", "📍", "🚗", "‼️", "⏰", "📦","❗️","Пушта","Poshta","POSHTA","PO'SHTA","Po'shta","poshta","po'shta","Пошта ","ПОШТА","почта"
     ];
 
     // Agar xabarda istalmagan iboralardan biri bo‘lsa, hech narsa qilmaymiz
